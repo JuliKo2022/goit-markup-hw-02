@@ -1,10 +1,10 @@
 :root {
-  --accent-color: #2196F3;
-  --hero-text-color: #FFFFFF;
+  --accent-color: #2196f3;
+  --hero-text-color: #ffffff;
   --main-text-color: #212121;
   --second-text-color: #757575;
-  --btn-text-color: #FFFFFF;
-  --btn-color: #F5F4FA;
+  --btn-text-color: #ffffff;
+  --btn-color: #f5f4fa;
 }
 
 body {
@@ -35,7 +35,7 @@ body {
 }
 /*----------------Header-------------------*/
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -78,7 +78,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-text-color);
-  }
+}
 
 .hero-btn {
   font-weight: 700;
@@ -87,6 +87,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--btn-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -95,11 +96,11 @@ body {
   background-color: var(--btn-color);
 }
 .hero {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 /*-------------Sides-----------------------*/
-.sides-titel {
+.sides-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -114,3 +115,78 @@ body {
 }
 
 /*---------------Work---------------------*/
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/*-----------------Team--------------------*/
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+/*----------------Portfolio-----------------*/
+.btn-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--btn-color);
+  cursor: pointer;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--btn-text-color);
+  background-color: var(--accent-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.portfolio-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--second-text-color);
+}
+
+/*------------------Footer------------------*/
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo {
+  color: #ffffff;
+}
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--btn-text-color);
+}
+
+.footer-contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
